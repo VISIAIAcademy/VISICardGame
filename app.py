@@ -22,7 +22,7 @@ class Card:
         return f"{self.value}_{self.suit}.png"
 
     def __str__(self):
-        return f\"{Card.values[self.value]} of {Card.suits[self.suit]}\"
+        return f"{Card.values[self.value]} of {Card.suits[self.suit]}"
 
 class Deck:
     def __init__(self):
